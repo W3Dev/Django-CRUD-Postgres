@@ -4,8 +4,8 @@
 
 ###### The prerequisites are:
 
-- Python (3.6.x)
-- Git Cli
-- Virtual Environment
-- Heroku Account
-- Docker Account
+- [Python (3.6.x)]( https://www.python.org/downloads/)
+- [Git Cli](https://git-scm.com/downloads/)
+- [Virtual Environment](https://pypi.org/project/virtualenv/)
+- [Heroku Account](https://www.heroku.com/ )
+- [Docker Account](https://docs.docker.com/install/)
