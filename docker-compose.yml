@@ -18,9 +18,9 @@ services:
         ports:
             - "5432:5432"
         environment:
-            POSTGRES_USER: me
-            POSTGRES_PASSWORD: 1234
-            POSTGRES_DB: testDb
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: docker
+            POSTGRES_DB: postgres
         volumes:
             - pgvol:/var/lib/postgresql/data
 volumes:
