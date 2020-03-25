@@ -1,0 +1,8 @@
+$ git init
+$ heroku git:remote -a <yourherokudjangoapp name> set git remote heroku to https://git.heroku.com/<yourherokudjangoappname>.git
+$ git add -A
+$ git commit -m "mssg"
+$ git push heroku master
+$ heroku config:set     DISABLE_COLLECTSTATIC=1
+$ git push heroku master
+$ heroku run manage.py migrate
